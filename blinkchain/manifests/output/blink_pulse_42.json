@@ -1,0 +1,9 @@
+{
+  "manifest_cid": "QmUNK8AoKZh2kYWoKDaj7SYbyH8hy4bm1TPPZ2XgW9bSZx",
+  "entropy_hash": "0xf4f92146c9d9aaa01754fa66c5d618ca2a74aea6ca3fa094a22a75dad247d1a0",
+  "sigil_hex": "ef7194d80dbd5bdca06a66b09a2bb34f189f96400d8d3a73187d00ba078e2116",
+  "pulse_counter": 42,
+  "timestamp": "2025-10-03T22:14:19Z",
+  "raw_tx_hex_or_tx_hash": "",
+  "artifact_path": "blinkchain/manifests/blink_manifest_42.json"
+}
