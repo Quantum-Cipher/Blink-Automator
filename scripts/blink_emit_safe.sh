@@ -3,7 +3,7 @@ set -e  # Exit immediately if any command fails
 
 # === Step 1: Decrypt GPG Key ===
 echo "[Blink Emit] Decrypting private key..."
-gpg --batch --yes --decrypt ./private_key.gpg > /tmp/priv_with_prefix.txt
+gpg --batch --yes --decrypt keys/private_key.gpg > /tmp/priv_with_prefix.txt
 
 # === Step 2: Load and Validate Key ===
 key=$(cat /tmp/priv_with_prefix.txt | tr -d '\n\r')
