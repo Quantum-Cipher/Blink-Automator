@@ -4,3 +4,4 @@
 *.pem
 node_modules/
 .DS_Store
+keys/private_key.gpg
